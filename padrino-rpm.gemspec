@@ -16,6 +16,6 @@ Gem::Specification.new do |s|
   s.summary = %q{Padrino Instrumentation for New Relic RPM}
   s.files = `git ls-files`.split("\n")
 
-  s.add_dependency(%q<newrelic_rpm>, "~> 4.8.0.341")
+  s.add_dependency(%q<newrelic_rpm>, "~> 6.12.0.367")
 end
 
